@@ -23,7 +23,7 @@ Cost to Brute Force should be used to estimate password strength instead.
 The Brute Force Calculation used in this app is quite basic and has not been tested
 in the wild. It assumes the attacker has intercepted a password hash and attempting
 to brute force using HashCat on an AWS machine (g4dn.xlarge) with an hourly run
-cost of $8.10. It assumes that the password will be brute-forced after 50% of
+cost of $8.61. It assumes that the password will be brute-forced after 50% of
 all possible combinations have been tried.
 
 HashCat benchmark hash rates were pulled from online articles. The author of this
